@@ -11,17 +11,23 @@
   },
   "dependencies": {
     "@react-native-mapbox-gl/maps": "^8.1.0-rc.2",
+    "@turf/length": "^6.0.2",
     "react": "16.13.1",
-    "react-native": "0.63.2"
+    "react-native": "0.63.2",
+    "react-native-elements": "^2.1.0",
+    "react-native-vector-icons": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
+    "@turf/along": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
     "babel-jest": "^25.1.0",
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
+    "prop-types": "^15.7.2",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
