@@ -41,9 +41,10 @@ export default function ImageOverlay() {
 
   return (
     <MapboxGL.MapView
-      ref={(ref) => (this.map = ref)}
+      // ref={(ref) => (this.map = ref)}
       style={sheet.matchParent}
-      styleURL={MapboxGL.StyleURL.Dark}>
+      styleURL={MapboxGL.StyleURL.Dark}
+    >
       <MapboxGL.Camera zoomLevel={5.2} centerCoordinate={[-75.789, 41.874]} />
 
       <MapboxGL.Animated.ImageSource
